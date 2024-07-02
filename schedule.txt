@@ -1,0 +1,238 @@
+
+Academic Year: Senior year
+------
+Fall Semester :
+--- 
+!!!
+ "Motor Control and Learning" has a pre-req of :EXER.3050 Exercise Physiology, and Exercise Science students only.
+	:: Credit: 3
+3
+!!!
+ "Clinical Exercise Physiology" has a pre-req of :EXER.3050 Exercise Physiology, and EP or ES Majors, or ES Minors.
+	:: Credit: 3
+6
+N\A
+ "Arts and Hum Persp. (AH)" has no link
+	:: Credit: 3
+9
+N\A
+ "Free Elective" has no link
+	:: Credit: 3
+12
+N\A
+ "Free Elective" has no link
+	:: Credit: 3
+15
+
+
+Spring Semester :
+--- 
+!!!
+ "Clinical Practicum I and II (SRE), (AIL)" has a pre-req of :Pre-req: EXER.3150 Kinesiology, and EXER.3560 Pharmacology, and EXER.4220 Exercise Prescription and Programming.
+	:: Credit: 4
+4
+N\A
+ "Introduction to Gerontology /
+Adult Development and Aging" DOES NOT pre-req of :
+	:: Credit: 3
+7
+N\A
+ "Free Elective" has no link
+	:: Credit: 3
+10
+N\A
+ "Free Elective" has no link
+	:: Credit: 3
+13
+N\A
+ "Arts and Hum. Persp. (AH)" has no link
+	:: Credit: 3
+16
+
+
+
+
+
+
+
+
+Academic Year: Freshman year
+------
+Fall Semester :
+--- 
+!!!
+ "IPE Research Methods" has a pre-req of :ENGL.1020 College Writing II, and MATH.2830 Intro to Statistics, or PUBH.3010 Intro to Biostatistics, and HSCI.2520 Physiological Chem II, or CHEM.1220 Chemistry II, or Exercise Science and Sophomore Level, or Public Health and Junior Level.
+	:: Credit: 3
+3
+!!!
+ "Human Nutrition" has a pre-req of :HSCI.1020 Anatomy & Physiology II, or BIOL.1120 Principles of Biology II, or Permission of instructor.
+	:: Credit: 3
+6
+!!!
+ "General Physics I (STEM)" has a pre-req of :Anti-Req: Students only can receive credit for one of the following fr-lvl phys I lec/lab courses: PHYS.1010/1010L; PHYS.1030/1030L,PHYS.1410/1410L;or PHYS.1610/1610L.Please Note: Academic petition is required for anti-req exceptions.
+	:: Credit: 3
+9
+!!!
+ "General Physics I Lab" has a pre-req of :PreReq or Co-Req: 95.103 General Physics I.
+	:: Credit: 1
+10
+N\A
+ "Chemistry Elective with Lab1" has no link
+	:: Credit: 4
+14
+
+
+Spring Semester :
+--- 
+!!!
+ "General Physics II" has a pre-req of :PHYS 1030 with a 'C-' or higher; or Spring 2020 grade of 'P', & Co-req: or Pre-req: PHYS 1040L ; Anti-Req PHYS.1040/1040L, PHYS.1440/1440L;or PHYS.1640/1640L. Please Note: Academic petition is required for anti-req exceptions.
+	:: Credit: 3
+3
+!!!
+ "General Physics II Lab" has a pre-req of :Co-Req or Pre-Req: PHYS.1040 General Physics II.
+	:: Credit: 1
+4
+!!!
+ "Abnormal Psychology" has a pre-req of :Pre-Req: PSYC.1010 Intro to Psychological Science .
+	:: Credit: 3
+7
+!!!
+ "Introduction to Public Health" has a pre-req of :College of Health Sciences Majors, or Public Health minors, or Permission of Instructor.
+	:: Credit: 3
+10
+N\A
+ "Chemistry Elective with Lab1" has no link
+	:: Credit: 4
+14
+
+
+
+
+
+
+
+
+Academic Year: Sophomore year
+------
+Fall Semester :
+--- 
+!!!
+ "Human Biochemistry" has a pre-req of :Pre-Req: HSCI 2520 Physiological Chem II.
+	:: Credit: 3
+3
+!!!
+ "Exercise Physiology" has a pre-req of :HSCI.1020 Anatomy & Physiology II, and HSCI.2520 Physiological Chemistry II, or CHEM.1220 Chemistry II, and Co-req: EXER.3070 Exercise Physiology Lab, and EP or ES Majors, or ES Minors.
+	:: Credit: 3
+6
+!!!
+ "Exercise Physiology Laboratory" has a pre-req of :Co-req: EXER.3050 Exercise Physiology.
+	:: Credit: 1
+7
+!!!
+ "Kinesiology" has a pre-req of :HSCI.1020 Anatomy & Physiology II, and PHYS.1040 General Physics II, or PHYS.1440 Physics II, and Co-req: EXER.3170 Kinesiology Laboratory.
+	:: Credit: 3
+10
+!!!
+ "Kinesiology Lab" has a pre-req of :Co-req: EXER.3150 Kinesiology.
+	:: Credit: 1
+11
+!!!
+ "Child and Adolescent Development" has a pre-req of :Pre-Req: PSYC.1010 Intro to Psychological Science .
+	:: Credit: 3
+14
+N\A
+ "Arts and Hum. Persp. (AH)" has no link
+	:: Credit: 3
+17
+
+
+Spring Semester :
+--- 
+!!!
+ "Pharmacology" has a pre-req of :HSCI.1020 Anatomy & Physiology II, and HSCI.3500 Human Biochemistry.
+	:: Credit: 3
+3
+!!!
+ "Foundations of Strength and Conditioning" has a pre-req of :EXER.3050 Exercise Physiology, and Co-req: EXER.4080 Foundations of strength and Conditioning, and EP or ES Majors, or ES Minors.
+	:: Credit: 3
+6
+!!!
+ "Foundations of Strength and Conditioning Laboratory" has a pre-req of :Co-req: EXER.4060 Foundations of Strength and Conditioning.
+	:: Credit: 1
+7
+!!!
+ "Exercise Prescription and Programming" has a pre-req of :Co-req: EXER.4060 Foundations of Strength and Conditioning.
+	:: Credit: 3
+10
+!!!
+ "Exercise Prescription & Programming Laboratory" has a pre-req of :Co-req: EXER.4220 Exercise Prescription and Programming.
+	:: Credit: 1
+11
+N\A
+ "Introduction to Sociology" DOES NOT pre-req of :
+	:: Credit: 3
+14
+
+
+
+
+
+
+
+
+Academic Year: Junior year
+------
+Fall Semester :
+--- 
+!!!
+ "Clinical Practicum I and II" has a pre-req of :Pre-req: EXER.3150 Kinesiology, and EXER.3560 Pharmacology, and EXER.4220 Exercise Prescription and Programming.
+	:: Credit: 4
+4
+!!!
+ "Motor Control and Learning" has a pre-req of :EXER.3050 Exercise Physiology, and Exercise Science students only.
+	:: Credit: 3
+7
+!!!
+ "Clinical Exercise Physiology" has a pre-req of :EXER.3050 Exercise Physiology, and EP or ES Majors, or ES Minors.
+	:: Credit: 3
+10
+N\A
+ "Introduction to Gerontology /
+Adult Development and Aging" DOES NOT pre-req of :
+	:: Credit: 3
+13
+N\A
+ "Free Elective" has no link
+	:: Credit: 3
+16
+
+
+Spring Semester :
+--- 
+N\A
+ "Arts and Hum. Persp. (AH)" has no link
+	:: Credit: 3
+3
+N\A
+ "Arts and Hum. Persp. (AH)" has no link
+	:: Credit: 3
+6
+N\A
+ "Free Elective" has no link
+	:: Credit: 3
+9
+N\A
+ "Free Elective" has no link
+	:: Credit: 3
+12
+N\A
+ "Free Elective" has no link
+	:: Credit: 3
+15
+
+
+
+
+
+
+

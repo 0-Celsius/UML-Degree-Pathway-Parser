@@ -1,0 +1,424 @@
+{
+    "Senior year": [
+        {
+            "Semester": "Fall Semester",
+            "classes": [
+                {
+                    "Class Name": "Motor Control and Learning",
+                    "Class ID": [
+                        "EXER.4240"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/4240"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Clinical Exercise Physiology",
+                    "Class ID": [
+                        "EXER.4250"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/4250"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Arts and Hum Persp. (AH)",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Free Elective",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Free Elective",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                }
+            ]
+        },
+        {
+            "Semester": "Spring Semester",
+            "classes": [
+                {
+                    "Class Name": "Clinical Practicum I and II (SRE), (AIL)",
+                    "Class ID": [
+                        "EXER.4120"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/4120"
+                    ],
+                    "Credit(s)": "4"
+                },
+                {
+                    "Class Name": "Introduction to Gerontology /\nAdult Development and Aging",
+                    "Class ID": [
+                        "HSCI.3060",
+                        "PSYC.3600"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/HSCI/3060",
+                        "https://www.uml.edu/catalog/courses/PSYC/3600"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Free Elective",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Free Elective",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Arts and Hum. Persp. (AH)",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                }
+            ]
+        }
+    ],
+    "Freshman year": [
+        {
+            "Semester": "Fall Semester",
+            "classes": [
+                {
+                    "Class Name": "IPE Research Methods",
+                    "Class ID": [
+                        "HSCI.3400"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/HSCI/3400"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Human Nutrition",
+                    "Class ID": [
+                        "NUTR.2060"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/NUTR/2060"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "General Physics I (STEM)",
+                    "Class ID": [
+                        "PHYS.1030"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/PHYS/1030"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "General Physics I Lab",
+                    "Class ID": [
+                        "PHYS.1030L"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/PHYS/1030L"
+                    ],
+                    "Credit(s)": "1"
+                },
+                {
+                    "Class Name": "Chemistry Elective with Lab1",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "4"
+                }
+            ]
+        },
+        {
+            "Semester": "Spring Semester",
+            "classes": [
+                {
+                    "Class Name": "General Physics II",
+                    "Class ID": [
+                        "PHYS.1040"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/PHYS/1040"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "General Physics II Lab",
+                    "Class ID": [
+                        "PHYS.1040L"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/PHYS/1040L"
+                    ],
+                    "Credit(s)": "1"
+                },
+                {
+                    "Class Name": "Abnormal Psychology",
+                    "Class ID": [
+                        "PSYC.2720"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/PSYC/2720"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Introduction to Public Health",
+                    "Class ID": [
+                        "PUBH.1021"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/PUBH/1021"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Chemistry Elective with Lab1",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "4"
+                }
+            ]
+        }
+    ],
+    "Sophomore year": [
+        {
+            "Semester": "Fall Semester",
+            "classes": [
+                {
+                    "Class Name": "Human Biochemistry",
+                    "Class ID": [
+                        "HSCI.3500"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/HSCI/3500"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Exercise Physiology",
+                    "Class ID": [
+                        "EXER.3050"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/3050"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Exercise Physiology Laboratory",
+                    "Class ID": [
+                        "EXER.3070"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/3070"
+                    ],
+                    "Credit(s)": "1"
+                },
+                {
+                    "Class Name": "Kinesiology",
+                    "Class ID": [
+                        "EXER.3150"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/3150"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Kinesiology Lab",
+                    "Class ID": [
+                        "EXER.3170"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/3170"
+                    ],
+                    "Credit(s)": "1"
+                },
+                {
+                    "Class Name": "Child and Adolescent Development",
+                    "Class ID": [
+                        "PSYC.2600"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/PSYC/2600"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Arts and Hum. Persp. (AH)",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                }
+            ]
+        },
+        {
+            "Semester": "Spring Semester",
+            "classes": [
+                {
+                    "Class Name": "Pharmacology",
+                    "Class ID": [
+                        "EXER.3560"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/3560"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Foundations of Strength and Conditioning",
+                    "Class ID": [
+                        "EXER.4060"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/4060"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Foundations of Strength and Conditioning Laboratory",
+                    "Class ID": [
+                        "EXER.4080"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/4080"
+                    ],
+                    "Credit(s)": "1"
+                },
+                {
+                    "Class Name": "Exercise Prescription and Programming",
+                    "Class ID": [
+                        "EXER.4220"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/4220"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Exercise Prescription & Programming Laboratory",
+                    "Class ID": [
+                        "EXER.4280"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/4280"
+                    ],
+                    "Credit(s)": "1"
+                },
+                {
+                    "Class Name": "Introduction to Sociology",
+                    "Class ID": [
+                        "SOCI.1010"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/SOCI/1010"
+                    ],
+                    "Credit(s)": "3"
+                }
+            ]
+        }
+    ],
+    "Junior year": [
+        {
+            "Semester": "Fall Semester",
+            "classes": [
+                {
+                    "Class Name": "Clinical Practicum I and II",
+                    "Class ID": [
+                        "EXER.4120"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/4120"
+                    ],
+                    "Credit(s)": "4"
+                },
+                {
+                    "Class Name": "Motor Control and Learning",
+                    "Class ID": [
+                        "EXER.4240"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/4240"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Clinical Exercise Physiology",
+                    "Class ID": [
+                        "EXER.4250"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/EXER/4250"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Introduction to Gerontology /\nAdult Development and Aging",
+                    "Class ID": [
+                        "HSCI.3060",
+                        "PSYC.3600"
+                    ],
+                    "Class Link": [
+                        "https://www.uml.edu/catalog/courses/HSCI/3060",
+                        "https://www.uml.edu/catalog/courses/PSYC/3600"
+                    ],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Free Elective",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                }
+            ]
+        },
+        {
+            "Semester": "Spring Semester",
+            "classes": [
+                {
+                    "Class Name": "Arts and Hum. Persp. (AH)",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Arts and Hum. Persp. (AH)",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Free Elective",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Free Elective",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                },
+                {
+                    "Class Name": "Free Elective",
+                    "Class ID": [],
+                    "Class Link": [],
+                    "Credit(s)": "3"
+                }
+            ]
+        }
+    ]
+}
