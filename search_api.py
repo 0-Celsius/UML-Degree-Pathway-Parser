@@ -78,7 +78,7 @@ def find_all_majors():
             link = ''
             try:
                 # gets the link 
-                base_link = r'uml.edu'
+                base_link = r'https://www.uml.edu'
                 link = base_link + li.find('a')['href']
             except Exception as e:
                 #print(f'error: {e}\n')
@@ -125,7 +125,7 @@ def user_terminal_interface(major_list):
     
     user_in = int(user_in)
     print("choosen major is:")
-    print(major_list[user_in].name)
+    print(f"\t {major_list[user_in].name}\n")
     return major_list[user_in]        
     
     
@@ -159,8 +159,7 @@ def search_url(major = None, url = None):
     else:
         print("no value")
         exit
-
-
+        
 
     response = requests.get(url_value)   
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -179,17 +178,9 @@ def search_url(major = None, url = None):
         #print(rows)
         for row in rows:
             cells = row.find_all('td')
-            
-            
             col_counter = 0 
-             
             current_course = Courses()
-            
-            # list values to store misc data 
-            course_IDs_list = []
-            course_urls_list = []
-            
-            
+            #print(f"index: {table_index}")
             for cell in cells:
                 '''
                 0: ID 
@@ -202,116 +193,161 @@ def search_url(major = None, url = None):
                     pass
                 else:
                     # has the conditions we want
+                    # we grab the course's data 
                     #print(f"\'{cell.get_text()}\'")
-                
-                    if col_counter == 0:
-                        print(f"id:\'{cell.get_text()}\'")
-                        try: 
-                            cell.get_text().partition('')
-                            
+                    cell_text = cell.get_text()
+                    if col_counter == 0: 
+                        if '/' in cell_text: 
+                            id_text = []
+                            id_text_temp = cell_text.partition('/')
+                            id_text.append(id_text_temp[0])
+                            id_text.append(id_text_temp[2].strip('\n'))
+                        else: 
+                            id_text = cell_text
                         
+                        a_ele_list = []
+                        a_elements = cell.find_all('a')
+                        for a in a_elements:
+                            a_url = r'https://www.uml.edu' + a['href']
+                            a_ele_list.append(a_url)
+                        #print(a_ele_list)
+                        
+                        current_course.url = a_ele_list
+                        current_course.IDs = id_text
+                        
+                        #print(f'url: {current_course.url}')
+                        #print(f"id: \'{current_course.IDs}\'")                    
                     elif col_counter == 1:
-                        print(f"name: \' {cell.get_text()}\'")
-                
+                        if '/' in cell_text:
+                            name_text = []
+                            name_text_temp = cell_text.partition('/')
+                            name_text.append(name_text_temp[0])
+                            name_text.append(name_text_temp[2].strip('\n'))
+                        else:
+                            name_text = cell_text
+                        current_course.name = name_text
+                        #print(f"name: \' {current_course.name}\'")  
                     elif col_counter == 2:
-                        print(f"credits: \'{cell.get_text()}\'")
-                
+                        if '/' in cell_text:
+                            credit_text = []
+                            credit_text_temp = cell_text.partition('/')
+                            credit_text.append(credit_text_temp[0])
+                            credit_text.append(credit_text_temp[2].strip('\n'))
+                        else:
+                            credit_text = cell_text
+                        current_course.credit = credit_text
+                        #print(f"credits: \'{current_course.credit}\'")
+
+                        # check data values 
+                        
+                        '''
+                        print(f"id: \'{current_course.IDs}\'")
+                        print(f"name: \' {current_course.name}\'")
+                        print(f'url: {current_course.url}')
+                        print(f"credits: \'{current_course.credit}\'")
+                        '''
+                        current_course_list.append(current_course)
+                        current_course = Courses()   
                     else:
                         print("error")
-                        pass     
-                    
-            print('\n\n\n')
-            print('----------') 
-        # Creates a semester
-        '''
-        for row in rows:
-            
-            cells = row.find_all('td')
-            print(cells)
-
-            
-            col_counter = 0 
-             
-            current_course = Courses()
-            
-            # list values to store misc data 
-            course_IDs_list = []
-            course_urls_list = []
-            
-            for cell in cells:
-                # checks if its the total value, if so ignore
-                if (cell.get_text() == "Total") or ((cell.get_text().isdigit()) and (int(cell.get_text()) >= 8)):
-                    pass
-                else:
-                    try: 
-                        a_elements = cell.find_elements('a')
-                    except:
-                        print("fail to find class's <a> content")
-                           
-                            
-                            
-                    if a_elements:
-                        for a in cell.find_elements('a'):
-                            #base_link = r'uml.edu'
-                            course_IDs_list.append(a.get_text())
-                            course_urls_list.append(r'uml.edu' + a['href'])
-
-                    else:
-                        if col_counter == 1:
-                            current_course.name = cell.text
-                        if col_counter == 2:
-                            current_course.IDs = course_IDs_list
-                            current_course.url = course_urls_list
-                            current_course.credit = cell.text
-                            current_course_list.append(current_course)
-                        if cell.text.isdigit():
-                            pass
-                col_counter += 1
-            current_course = Courses()
-        # creates the semester
-        current_semester = Semester(name = semester_type, course_list= current_course_list) 
+                        pass 
+                    col_counter +=1 
+            #print('\n\n\n')
+            #print('----------') 
+        if current_course_list:
+            #print('path is filled!!')
+            pathway.append(Semester(semester_type, current_course_list))
+        else:
+            #print('pathway is empty?')
+            pass
         current_course_list = []
-        pathway.append(current_semester)
-        '''
+    
+     
     print('done running search!')
     return pathway
 
-
-def print_pathway(pathway):
-    base_year = 2022
     
-    for idx_year, semesters in enumerate(pathway, start= 1):
+       
+def print_pathway(pathway, base_year = 2022):
+    for idx_year, semester  in enumerate(pathway, start= 1):
+        total_val = 0
         if idx_year % 2 == 0:
             base_year+=1
+        
+       
+        print("||||||||||||||||||||||||||||||||||||||||")
+        print((semester.name + ' ' + str(base_year)).center(40))
+        print("||||||||||||||||||||||||||||||||||||||||")
+        #print(semester.course_list)
+        
+        for course in semester.course_list:
 
-        for idx_semesters, semester in enumerate(semesters):
-            current_semester = semesters[idx_semesters].name 
-            print(f"Current semester: {current_semester} {base_year}")
-
-
-            for course in enumerate(semester):
-                print(f"\t Class Name: {course.name}")
-                print(f"\t Class IDs: {course.IDs}")
-                print(f"\t Class url: {course.url}")
-                print(f"\t Class credit: {course.credit}")
-                print(f"\t Class about: {course.about}")
-                
-                
-                    
-
+            print(f"\t Class IDs: {course.IDs}")
+            print(f"\t Class Name: {course.name}")
+            
+            print(f"\t Class url: {course.url}")
+            print(f"\t Class credit: {course.credit}")
+            print(f"\t Class about: {course.about}")
+            print("|||>")
+            print(" \\\\\\>")
+            print("  |||>__")
+            total_val += int(course.credit)
+        print(f"  >>>>[+] Total Credits: {total_val}")
+        
+        print("\n\n")
+        
+        
 if __name__ == '__main__':
     program = False 
     if program:
         major_list = find_all_majors()
         choosen_major = user_terminal_interface(major_list)
-        choosen_major = "test"
         continue_prompt()
-        search_url(choosen_major)
         
+        
+        print(choosen_major.url)
+        '''
+        !!! [implement]
+        - need to fix this part
+        - gets a different degree pathway
+        - need another reader for differnt pathways 
+            - options  
+        '''
+        
+        pathway = search_url(url= choosen_major.url)
+        print_pathway(pathway)
+ 
     else:
         # just a quick path to look up a url/ my debugger
         Double_EE_CS_URL = r"https://www.uml.edu/catalog/undergraduate/engineering/departments/electrical-computer-engineering/degree-pathways/dp-ece-eecs-2023.aspx"
         pathway = search_url(url = Double_EE_CS_URL)
-        #print(pathway[0].name)
-        #print(pathway[0].name.course_list)
-        #print_pathway(pathway)
+
+        
+        '''
+        A diagram of pathway:
+        pathway:[N]                 [list]
+            - semester:                 [class]
+                - name:                     [str]
+                - course_list:[N]           [list]
+                    - courses:                  [class]
+                        - name                      [list / str]
+                        - id                        [list / str] 
+                        - url                       [list / str]
+                        - credit                    [int] 
+                        - about                     [str]
+                    - courses:                  [class]
+                        - name                      [list / str]
+                        - id                        [list / str] 
+                        - url                       [list / str]
+                        - credit                    [int] 
+                        - about                     [str]
+                    - courses:                  [class]
+                        - name                      [list / str]
+                        - id                        [list / str] 
+                        - url                       [list / str]
+                        - credit                    [int] 
+                        - about                     [str]
+                    - ... 
+        '''
+        print_pathway(pathway)
+ 

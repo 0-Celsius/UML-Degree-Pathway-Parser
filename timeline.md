@@ -1,3 +1,9 @@
+# 07/23/2024
+## main
+    - !!! [implement]
+    - need to create this
+
+
 # 07/22/2024
 ## main
     - Started to actually think about what to do for this
