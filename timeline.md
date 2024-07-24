@@ -1,3 +1,25 @@
+# timeline.md 
+my personal file to remember what i need to fix and add etc, feel free to look through my thoughts
+
+# 07/24/2024 
+## main
+    - finished alot of things 
+    - now I need to make a pre req checker under about
+
+
+    - final finished the project
+    - did not check for errors 
+    - currently everything seems fine? 
+
+# notable things
+    - credits parsing:
+        - when encounter N-N (i.e: 0-1)
+            - it will take the right hand value
+        - if it encounters a N/N (should never happen.)
+            - will take the right hand value
+        
+        - this allows me to keep a integer value 
+
 # 07/23/2024
 ## main
     - !!! [implement]

@@ -1,8 +1,7 @@
 #API to find all majors offered at UML
 import requests
 from bs4 import BeautifulSoup
-
-import time
+import os
 
 
 ALL_MAJOR_URL = r'https://www.uml.edu/catalog/undergraduate/majors.aspx'
@@ -28,8 +27,10 @@ class Semester:
         self.name = name
         self.course_list = course_list
 
+
+
 def find_all_majors():
-    total_time = time.perf_counter()
+    
     
     all_majors_url = ALL_MAJOR_URL
     response = requests.get(all_majors_url)   
@@ -97,8 +98,7 @@ def find_all_majors():
                                                 url= link,
                                                 concentrations= options))
     
-    total_time = time.perf_counter() - total_time
-    print(f"total time: {total_time}")
+    
     return return_list_ 
   
              
@@ -130,7 +130,7 @@ def user_terminal_interface(major_list):
     
     
 def continue_prompt():
-    user_yn = input("look up major's pathway?\noptions: 'y' or 'n': ")
+    user_yn = input("options: 'y' or 'n': ")
     continue_inputs = ['y','yes']
     exit_inputs = ['n', 'no']
     desired_inputs = continue_inputs + exit_inputs
@@ -145,15 +145,117 @@ def continue_prompt():
         exit
 
 
+def find_degree_pathways(major_about_url):
+    try:
+        response = requests.get(major_about_url)   
+        soup = BeautifulSoup(response.content, 'html.parser')
+    except Exception as e:
+        print('failed to lookup url: ', e)    
+    
+    try:
+        a_elements = soup.find_all('a')
+    except Exception as e:
+        print(f"failed to find <a> elements: {e}")
+    
+    for a in a_elements:
+        a_text = a.get('title','')
+        #print(a_text)
+        if 'pathway' in a_text.lower() and 'degree' in a_text.lower():
+            #print(f"found a match: {a['href']}")
+            
+            return  r'https://www.uml.edu' + a['href']
+
+
+def choose_pathway_option(choosen_major_option_url):
+    try:
+        response = requests.get(choosen_major_option_url)   
+        soup = BeautifulSoup(response.content, 'html.parser')
+    except Exception as e:
+        print(f"failed {e}")
+        
+    main_content = soup.find_all('div', {'class': 'comp-main-content__section__content'})
+    
+    # REALLY BAD PARSING HERE 
+    # I was too lazy to figure another way to find all the elements so i went with this method
+    # allows me to find the item quicker this way, at the cost of me making another parse for the methods
+    offering_list = []
+    for m_c in main_content:
+        for content in m_c.find_all():
+            if content.name == 'p':
+                #print(content.text)
+                offering_list.append("majortag: " + content.text)
+            
+            content_text = str(content.text).lower()
+            if content.name == 'li' and 'concentration' in content_text:
+                offering_name = content_text.rsplit('concentration')[0].title()
+                #print(f"\t{offering_name}") 
+                offering_list.append('cotag: ' + offering_name)
+                
+            if content.name == 'li' and 'option' in content_text:
+                offering_name = content_text.rsplit('option')[0].title()
+                #print(f"\t{offering_name}") 
+                offering_list.append('cotag: ' + offering_name)
+            
+            
+            if content.name == 'a' :
+                offering_urls = r'https://www.uml.edu' + content['href']
+                #print(f"\t\t{offering_urls}")
+                offering_list.append(offering_urls)
+        
+    #print(offering_list)
+    print()
+     
+    # really shit parse job by me, but not like we're iterating over this 100 times, so idrc
+    cotag_skip_url = True
+    majortag_skip_url = True
+    index_1 = 0
+    major_with_options_list = [] 
+    for i in offering_list:
+        if 'majortag: ' in i:
+            txt = i.rsplit('majortag: ')[1]
+            print(f'\n{txt}')
+            majortag_skip_url = False
+            
+        if 'cotag: ' in i:
+            txt = i.rsplit('cotag: ')[1]
+            print(f'\t {txt}')
+            cotag_skip_url = False
+        
+        if 'https://' in i and (not cotag_skip_url or not majortag_skip_url):
+            # this will be hidden 
+            print(f'\t\\-->[{index_1}]\t {i}')
+            major_with_options_list.append(i)
+            cotag_skip_url = True    
+            majortag_skip_url = True
+            index_1 += 1
+    
+    print('\n\n')
+    #print(major_with_options_list)
+    return major_with_options_list
+        
+def choose_major_prompt(list_of_options):
+    max_len = len(list_of_options)
+    print('choose an major you want: ')
+    user_choice_n = int(input(f'enter a number(0 -> {max_len-1}): '))
+    print(f'{type(user_choice_n)} :: {user_choice_n}')
+    while not ( user_choice_n  in range(max_len)):
+        user_choice_n = int(input(f'enter a number(0 -> {max_len-1}): '))    
+        print(f'{type(user_choice_n)} :: {user_choice_n}')
+        
+    return list_of_options[user_choice_n]
+        
 def search_url(major = None, url = None):
     '''
     params:
         - Major: takes in a major class
         - Takes in a URL
     '''        
+    
+    
     url_value = '' 
     if url:        
         url_value = url
+
     elif major:
         url_value = major.url
     else:
@@ -232,9 +334,14 @@ def search_url(major = None, url = None):
                             credit_text = []
                             credit_text_temp = cell_text.partition('/')
                             credit_text.append(credit_text_temp[0])
-                            credit_text.append(credit_text_temp[2].strip('\n'))
+                            credit_text = credit_text_temp[2].strip('\n')
                         else:
                             credit_text = cell_text
+                            
+                        if '-' in cell_text:
+                            credit_text = []
+                            credit_text_temp = cell_text.partition('-')
+                            credit_text = credit_text_temp[2]
                         current_course.credit = credit_text
                         #print(f"credits: \'{current_course.credit}\'")
 
@@ -271,6 +378,7 @@ def search_url(major = None, url = None):
 def print_pathway(pathway, base_year = 2022):
     for idx_year, semester  in enumerate(pathway, start= 1):
         total_val = 0
+        class_index = 0 
         if idx_year % 2 == 0:
             base_year+=1
         
@@ -281,7 +389,7 @@ def print_pathway(pathway, base_year = 2022):
         #print(semester.course_list)
         
         for course in semester.course_list:
-
+            print(f"index: [{class_index}]\n")
             print(f"\t Class IDs: {course.IDs}")
             print(f"\t Class Name: {course.name}")
             
@@ -292,36 +400,96 @@ def print_pathway(pathway, base_year = 2022):
             print(" \\\\\\>")
             print("  |||>__")
             total_val += int(course.credit)
+            class_index+=1 
+        print(f"  >>>>[+] Total Classes: {class_index}")
         print(f"  >>>>[+] Total Credits: {total_val}")
         
         print("\n\n")
         
         
+def generate_pathway_text_file(pathway, base_year = 2022, filename = 'pathway.txt'):
+    
+    generated_file_location = os.path.join(os.getcwd(), filename) 
+    
+    with open(generated_file_location, 'w') as w_file:
+        for idx_year, semester  in enumerate(pathway, start= 1):
+            total_val = 0
+            class_index = 0 
+            if idx_year % 2 == 0:
+                base_year+=1
+            
+            
+            w_file.write("|||||||||||||||||||||||||||||||||||||||| \n")
+            w_file.write(f'{(semester.name + ' ' + str(base_year)).center(40)} \n')
+            w_file.write("|||||||||||||||||||||||||||||||||||||||| \n")
+            #print(semester.course_list)
+
+            for course in semester.course_list:
+                w_file.write(f"index: [{class_index}]\n")
+                w_file.write(f"\t Class IDs: {course.IDs} \n")
+                w_file.write(f"\t Class Name: {course.name} \n")
+                
+                w_file.write(f"\t Class url: {course.url} \n")
+                w_file.write(f"\t Class credit: {course.credit} \n")
+                w_file.write(f"\t Class about: {course.about} \n")
+                
+                w_file.write("|||> \n")
+                w_file.write(" \\\\\\> \n")
+                w_file.write("  |||>__ \n")
+                total_val += int(course.credit)
+                class_index+=1
+            w_file.write(f"  >>>>[+] Total Classes: {class_index} \n")
+            w_file.write(f"  >>>>[+] Total Credits: {total_val} \n")
+            
+            w_file.write("\n\n")
+            
+        
+            
+
 if __name__ == '__main__':
-    program = False 
+    
+    #Tag: Options
+    program = True
+    return_txt_file = True
+    
     if program:
         major_list = find_all_majors()
-        choosen_major = user_terminal_interface(major_list)
+        choosen_major_about_url = user_terminal_interface(major_list)
+        
+        print("look up major's pathway?")
         continue_prompt()
         
+        major_about_url = choosen_major_about_url.url
         
-        print(choosen_major.url)
-        '''
-        !!! [implement]
-        - need to fix this part
-        - gets a different degree pathway
-        - need another reader for differnt pathways 
-            - options  
-        '''
         
-        pathway = search_url(url= choosen_major.url)
-        print_pathway(pathway)
- 
+        major_options_url = find_degree_pathways(major_about_url)
+    
+        choosen_major_option_url_list = choose_pathway_option(major_options_url)
+        
+        choosen_major_option_url = choose_major_prompt(choosen_major_option_url_list)    
+
+        pathway_requirements = search_url(url= choosen_major_option_url)
+        
+        if return_txt_file:
+            generate_pathway_text_file(pathway_requirements)
+            pass
+        
+        
     else:
         # just a quick path to look up a url/ my debugger
-        Double_EE_CS_URL = r"https://www.uml.edu/catalog/undergraduate/engineering/departments/electrical-computer-engineering/degree-pathways/dp-ece-eecs-2023.aspx"
-        pathway = search_url(url = Double_EE_CS_URL)
-
+        pathway_url = ''
+        
+        #Double_EE_CS_URL = r"https://www.uml.edu/catalog/undergraduate/engineering/departments/electrical-computer-engineering/degree-pathways/dp-ece-eecs-2023.aspx"
+        #user_pathway_url = Double_EE_CS_URL
+         
+        user_pathway_url = input("Please enter a pathway url from uml: ")
+        pathway_url = user_pathway_url
+        
+        
+        
+        pathway_requirements = search_url(url = pathway_url)
+        if return_txt_file:
+            generate_pathway_text_file(pathway_requirements)
         
         '''
         A diagram of pathway:
@@ -349,5 +517,5 @@ if __name__ == '__main__':
                         - about                     [str]
                     - ... 
         '''
-        print_pathway(pathway)
+        print_pathway(pathway_requirements)
  

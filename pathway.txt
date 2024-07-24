@@ -1,0 +1,417 @@
+|||||||||||||||||||||||||||||||||||||||| 
+           Fall Semester 2022            
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: MATH.1020 
+	 Class Name: Freshman Seminar in Mathematics1 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/1020'] 
+	 Class credit: 1 
+	 Class about: None 
+|||> 1310 
+	 Class Name: Calculus I (MATH)� 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/1310'] 
+	 Class credit: 4 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: ['ENGL.1010 ', 'HONR.1100'] 
+	 Class Name: ['College Writing I ', 'First Year Seminar in Honors: Text in the City (CW)'] 
+	 Class url: ['https://www.uml.edu/catalog/courses/ENGL/1010', 'https://www.uml.edu/catalog/courses/HONR/1100'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Social Sciences Perspective (SS)4 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [4]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: ['Science with Lab Perspective (SCL)2', '3'] 
+	 Class url: [] 
+	 Class credit: 4 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 5 
+  >>>>[+] Total Credits: 15 
+
+
+|||||||||||||||||||||||||||||||||||||||| 
+          Spring Semester 2023           
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: MATH.1320 
+	 Class Name: Calculus II 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/1320'] 
+	 Class credit: 4 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: ['MATH.2190\xa0', 'MATH.3230'] 
+	 Class Name: ['Discrete Structures I ', 'Introduction to Proofs'] 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2190', 'https://www.uml.edu/catalog/courses/MATH/3230'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: ENGL.1020 
+	 Class Name: College Writing II (CW) 
+	 Class url: ['https://www.uml.edu/catalog/courses/ENGL/1020'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: ['Science with Lab Perspective (SCL)2', '3'] 
+	 Class url: [] 
+	 Class credit: 4 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 4 
+  >>>>[+] Total Credits: 14 
+
+
+|||||||||||||||||||||||||||||||||||||||| 
+           Fall Semester 2023            
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: MATH.2310 
+	 Class Name: Calculus III 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2310'] 
+	 Class credit: 4 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: MATH.2210 
+	 Class Name: Introduction to Linear Algebra 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2210'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: �Non-Math Science Elective (STEM)2 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Arts and Humanities Perspective (AH)4 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [4]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Social Sciences Perspective (SS)4 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 5 
+  >>>>[+] Total Credits: 16 
+
+
+|||||||||||||||||||||||||||||||||||||||| 
+          Spring Semester 2024           
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: MATH.2220 
+	 Class Name: Linear Algebra 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2220'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: MATH.2340 
+	 Class Name: Differential Equations (CTPS), (QL) 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2340'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Computing Elective5 
+	 Class url: [] 
+	 Class credit: 4 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Arts and Humanities Perspective (AH)4 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [4]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Social Sciences Perspective (SS)4 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 5 
+  >>>>[+] Total Credits: 16 
+
+
+|||||||||||||||||||||||||||||||||||||||| 
+           Fall Semester 2024            
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: ['MATH.3850 ', 'MATH.4070'] 
+	 Class Name: ['Applied Statistics ', 'Probability and Mathematical Statistics I'] 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/3850', 'https://www.uml.edu/catalog/courses/MATH/4070'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: MATH.4110 
+	 Class Name: Complex Variables I 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/4110'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Arts and Humanities Perspective (AH)4 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Free Elective6 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [4]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Free Elective6 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 5 
+  >>>>[+] Total Credits: 15 
+
+
+|||||||||||||||||||||||||||||||||||||||| 
+          Spring Semester 2025           
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: MATH.3620 
+	 Class Name: Numerical Analysis I 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/3620'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: MATH.3750 
+	 Class Name: Senior Seminar I 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/3750'] 
+	 Class credit: 1 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: ['MATH.3', '4xxx'] 
+	 Class Name: Applied and Computational Math Elective7 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Free Elective6 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [4]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Free Elective6 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [5]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Free Elective6 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 6 
+  >>>>[+] Total Credits: 16 
+
+
+|||||||||||||||||||||||||||||||||||||||| 
+           Fall Semester 2025            
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: MATH.4750 
+	 Class Name: Senior Seminar II (AIL), (IL), (WOC) 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/4750'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: ['MATH.3', '4xxx'] 
+	 Class Name: Applied and Computational Mathematics Elective7 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Free Elective6 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Free Elective6 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [4]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Free Elective6 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 5 
+  >>>>[+] Total Credits: 15 
+
+
+|||||||||||||||||||||||||||||||||||||||| 
+          Spring Semester 2026           
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: ['MATH.3', '4xxx'] 
+	 Class Name: Applied and Computational Mathematics�Elective7 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH'] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Free Elective6 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Free Elective6 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Free Elective6 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+index: [4]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Free Elective6 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: None 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 5 
+  >>>>[+] Total Credits: 15 
+
+
+
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: MATH.
