@@ -1,6 +1,30 @@
 # timeline.md 
 my personal file to remember what i need to fix and add etc, feel free to look through my thoughts
 
+# 07/25/2024
+## main 
+    - started making a pre req checker
+    - kinda weird that in find_all_major, we do a save into undergrad_major class?
+        - should make a new class but idrc
+
+## additions 
+    - added a pre-req finder
+    - added a total time function
+
+## problems
+    - add timers, which arent need
+        - defineitly slows the program down
+        - program is rpetty slow itself
+        - takes around what 6 >> 30 for big majors
+        - probably would be a great idea to asynchronous request for half of the urls when looking for pre reqs 
+        - 30 fucking seconds for a big major like EECS 
+            - do I care enough to reduce this time to probably like 1 to 5 seconds? 
+                - no :/
+            - it takes the old version 40 seconds
+                - it was also opening tabs...
+                - 38 seconds for no open tabs...
+
+
 # 07/24/2024 
 ## main
     - finished alot of things 

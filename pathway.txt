@@ -2,303 +2,56 @@
            Fall Semester 2022            
 |||||||||||||||||||||||||||||||||||||||| 
 index: [0]
-	 Class IDs: MATH.1020 
-	 Class Name: Freshman Seminar in Mathematics1 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH/1020'] 
-	 Class credit: 1 
-	 Class about: None 
-|||> 1310 
-	 Class Name: Calculus I (MATH)ï¿½ 
+	 Class IDs: EECE.1070 
+	 Class Name: Introduction to Electrical and Computer Engineering 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/1070'] 
+	 Class credit: 2 
+	 Class about: ['Co-req: MATH.1230 Precalculus Mathematics II, or MATH.1310 Calculus I.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: MATH.1310 
+	 Class Name: Calculus I (MATH)1 
 	 Class url: ['https://www.uml.edu/catalog/courses/MATH/1310'] 
 	 Class credit: 4 
-	 Class about: None 
+	 Class about: [] 
 |||> 
  \\\> 
   |||>__ 
 index: [2]
-	 Class IDs: ['ENGL.1010 ', 'HONR.1100'] 
-	 Class Name: ['College Writing I ', 'First Year Seminar in Honors: Text in the City (CW)'] 
-	 Class url: ['https://www.uml.edu/catalog/courses/ENGL/1010', 'https://www.uml.edu/catalog/courses/HONR/1100'] 
+	 Class IDs: COMP.1010 
+	 Class Name: Computing I 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP/1010'] 
 	 Class credit: 3 
-	 Class about: None 
+	 Class about: ['Introduction to computing environments: introduction to an integrated development environment; C, C++, or a similar language.  Linear data structures; arrays, records, and linked lists.  Abstract data types, stacks, and queues.  Simple sorting via exchange, selection, and insertion, basic file I/O. Programming style documentation and testing.  Ethical and social issues.  Effective Fall 2013, Co-req 91.103 Computing 1 Lab.', 'Co-req: COMP.1030L Comp. 1 Lab.'] 
 |||> 
  \\\> 
   |||>__ 
 index: [3]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Social Sciences Perspective (SS)4 
-	 Class url: [] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [4]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: ['Science with Lab Perspective (SCL)2', '3'] 
-	 Class url: [] 
-	 Class credit: 4 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-  >>>>[+] Total Classes: 5 
-  >>>>[+] Total Credits: 15 
-
-
-|||||||||||||||||||||||||||||||||||||||| 
-          Spring Semester 2023           
-|||||||||||||||||||||||||||||||||||||||| 
-index: [0]
-	 Class IDs: MATH.1320 
-	 Class Name: Calculus II 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH/1320'] 
-	 Class credit: 4 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [1]
-	 Class IDs: ['MATH.2190\xa0', 'MATH.3230'] 
-	 Class Name: ['Discrete Structures I ', 'Introduction to Proofs'] 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2190', 'https://www.uml.edu/catalog/courses/MATH/3230'] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [2]
-	 Class IDs: ENGL.1020 
-	 Class Name: College Writing II (CW) 
-	 Class url: ['https://www.uml.edu/catalog/courses/ENGL/1020'] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [3]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: ['Science with Lab Perspective (SCL)2', '3'] 
-	 Class url: [] 
-	 Class credit: 4 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-  >>>>[+] Total Classes: 4 
-  >>>>[+] Total Credits: 14 
-
-
-|||||||||||||||||||||||||||||||||||||||| 
-           Fall Semester 2023            
-|||||||||||||||||||||||||||||||||||||||| 
-index: [0]
-	 Class IDs: MATH.2310 
-	 Class Name: Calculus III 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2310'] 
-	 Class credit: 4 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [1]
-	 Class IDs: MATH.2210 
-	 Class Name: Introduction to Linear Algebra 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2210'] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [2]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: ï¿½Non-Math Science Elective (STEM)2 
-	 Class url: [] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [3]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Arts and Humanities Perspective (AH)4 
-	 Class url: [] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [4]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Social Sciences Perspective (SS)4 
-	 Class url: [] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-  >>>>[+] Total Classes: 5 
-  >>>>[+] Total Credits: 16 
-
-
-|||||||||||||||||||||||||||||||||||||||| 
-          Spring Semester 2024           
-|||||||||||||||||||||||||||||||||||||||| 
-index: [0]
-	 Class IDs: MATH.2220 
-	 Class Name: Linear Algebra 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2220'] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [1]
-	 Class IDs: MATH.2340 
-	 Class Name: Differential Equations (CTPS), (QL) 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2340'] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [2]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Computing Elective5 
-	 Class url: [] 
-	 Class credit: 4 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [3]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Arts and Humanities Perspective (AH)4 
-	 Class url: [] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [4]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Social Sciences Perspective (SS)4 
-	 Class url: [] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-  >>>>[+] Total Classes: 5 
-  >>>>[+] Total Credits: 16 
-
-
-|||||||||||||||||||||||||||||||||||||||| 
-           Fall Semester 2024            
-|||||||||||||||||||||||||||||||||||||||| 
-index: [0]
-	 Class IDs: ['MATH.3850 ', 'MATH.4070'] 
-	 Class Name: ['Applied Statistics ', 'Probability and Mathematical Statistics I'] 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH/3850', 'https://www.uml.edu/catalog/courses/MATH/4070'] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [1]
-	 Class IDs: MATH.4110 
-	 Class Name: Complex Variables I 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH/4110'] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [2]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Arts and Humanities Perspective (AH)4 
-	 Class url: [] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [3]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Free Elective6 
-	 Class url: [] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [4]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Free Elective6 
-	 Class url: [] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-  >>>>[+] Total Classes: 5 
-  >>>>[+] Total Credits: 15 
-
-
-|||||||||||||||||||||||||||||||||||||||| 
-          Spring Semester 2025           
-|||||||||||||||||||||||||||||||||||||||| 
-index: [0]
-	 Class IDs: MATH.3620 
-	 Class Name: Numerical Analysis I 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH/3620'] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [1]
-	 Class IDs: MATH.3750 
-	 Class Name: Senior Seminar I 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH/3750'] 
+	 Class IDs: COMP.1030L 
+	 Class Name: Computing I Lab 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP/1030L'] 
 	 Class credit: 1 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [2]
-	 Class IDs: ['MATH.3', '4xxx'] 
-	 Class Name: Applied and Computational Math Elective7 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH'] 
-	 Class credit: 3 
-	 Class about: None 
-|||> 
- \\\> 
-  |||>__ 
-index: [3]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Free Elective6 
-	 Class url: [] 
-	 Class credit: 3 
-	 Class about: None 
+	 Class about: [] 
 |||> 
  \\\> 
   |||>__ 
 index: [4]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Free Elective6 
-	 Class url: [] 
+	 Class IDs: ENGL.1010 
+	 Class Name: College Writing I (CW) 
+	 Class url: ['https://www.uml.edu/catalog/courses/ENGL/1010'] 
 	 Class credit: 3 
-	 Class about: None 
+	 Class about: ['Anti Req for ENGL.1010 - students cannot receive credit for both ENGL.1010, ENGL.1110 and ENGL.1010S. Please Note: Academic petition is required for anti-req exceptions.'] 
 |||> 
  \\\> 
   |||>__ 
 index: [5]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Free Elective6 
-	 Class url: [] 
+	 Class IDs: ['ECON.2010 ', 'ECON.2020'] 
+	 Class Name: ['Principles of Microeconomics ', 'Principles of Macroeconomics (SS)'] 
+	 Class url: ['https://www.uml.edu/catalog/courses/ECON/2010', 'https://www.uml.edu/catalog/courses/ECON/2020'] 
 	 Class credit: 3 
-	 Class about: None 
+	 Class about: [] 
 |||> 
  \\\> 
   |||>__ 
@@ -307,111 +60,456 @@ index: [5]
 
 
 |||||||||||||||||||||||||||||||||||||||| 
-           Fall Semester 2025            
+          Spring Semester 2023           
 |||||||||||||||||||||||||||||||||||||||| 
 index: [0]
-	 Class IDs: MATH.4750 
-	 Class Name: Senior Seminar II (AIL), (IL), (WOC) 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH/4750'] 
+	 Class IDs: COMP.1020 
+	 Class Name: Computing II 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP/1020'] 
 	 Class credit: 3 
-	 Class about: None 
+	 Class about: ['Computing II focuses on the implementation and applications of data structures, including arrays, linked lists, stacks, queues, trees, binary trees, binary search trees, heaps, graphs, and hash tables. Recursive approaches are used. Performance analysis is discussed. Attention is paid to programming style, documentation, and testing. This course includes extensive laboratory work. Effective Fall 2013, Co-req: Computing 2 Lab.', 'COMP.1010 Computing I with a B- or better, and COMP.1030L Computing I Lab, and Co-req: COMP.1040L Computing II Lab.'] 
 |||> 
  \\\> 
   |||>__ 
 index: [1]
-	 Class IDs: ['MATH.3', '4xxx'] 
-	 Class Name: Applied and Computational Mathematics Elective7 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH'] 
-	 Class credit: 3 
-	 Class about: None 
+	 Class IDs: COMP.1040L 
+	 Class Name: Computing II Lab 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP/1040L'] 
+	 Class credit: 1 
+	 Class about: ['Co-req: Computing II COMP.1020.'] 
 |||> 
  \\\> 
   |||>__ 
 index: [2]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Free Elective6 
-	 Class url: [] 
-	 Class credit: 3 
-	 Class about: None 
+	 Class IDs: MATH.1320 
+	 Class Name: Calculus II2 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/1320'] 
+	 Class credit: 4 
+	 Class about: ['Pre-Req: MATH 1290 Calculus IB, MATH 1310 Calculus I, or a grade of CR in NONC CALC1.'] 
 |||> 
  \\\> 
   |||>__ 
 index: [3]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Free Elective6 
-	 Class url: [] 
+	 Class IDs: CHEM.1210 
+	 Class Name: Chemistry I (SCL) 
+	 Class url: ['https://www.uml.edu/catalog/courses/CHEM/1210'] 
 	 Class credit: 3 
-	 Class about: None 
+	 Class about: ['Co-Req:CHEM.1230L & Anti-Req:CHEM.1110 & CHEM.1350; Anti-Req:Students only can receive credit for one of the following fr-lvl chem I lect/lab courses:CHEM.1110/1130L,CHEM.1210/1230Lor CHEM.1350/1230L.Academic petition is required for anti-req exceptions.'] 
 |||> 
  \\\> 
   |||>__ 
 index: [4]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Free Elective6 
-	 Class url: [] 
-	 Class credit: 3 
-	 Class about: None 
+	 Class IDs: CHEM.1230L 
+	 Class Name: Chemistry I Laboratory (SCL) 
+	 Class url: ['https://www.uml.edu/catalog/courses/CHEM/1230L'] 
+	 Class credit: 1 
+	 Class about: ['Co-Req: CHEM 1210 Chemistry I.'] 
 |||> 
  \\\> 
   |||>__ 
-  >>>>[+] Total Classes: 5 
-  >>>>[+] Total Credits: 15 
+index: [5]
+	 Class IDs: ENGL.1020 
+	 Class Name: College Writing II (CW) 
+	 Class url: ['https://www.uml.edu/catalog/courses/ENGL/1020'] 
+	 Class credit: 3 
+	 Class about: ['Pre-Req: ENGL.1010 or ENGL.1110 or HONR.1100 or CW1 Student Group; Anti Req for ENGL.1020 - students cannot receive credit for both ENGL.1020 & ENGL.1120. Please Note: Academic petition is required for anti-req exceptions.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [6]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Arts and Humanities Perspective (AH)3 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: [] 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 7 
+  >>>>[+] Total Credits: 18 
+
+
+|||||||||||||||||||||||||||||||||||||||| 
+           Fall Semester 2023            
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: EECE.2010 
+	 Class Name: Circuit Theory I 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/2010'] 
+	 Class credit: 3 
+	 Class about: ["MATH.1320 Calculus II, and Co-req: EECE.2070 Basic Electrical Engineering Lab I, and a 'C' or higher in MATH.1320."] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: EECE.2070 
+	 Class Name: Basic Electrical Engineering Laboratory I 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/2070'] 
+	 Class credit: 2 
+	 Class about: ['Co-Req: EECE.2010 Circuit Theory I.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: COMP.2010 
+	 Class Name: Computing III 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP/2010'] 
+	 Class credit: 3 
+	 Class about: ['COMP.1020 Computing ll, and Co-req: COMP.2010L Computing lll Lab.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: COMP.2010R 
+	 Class Name: Computing III Lab 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP/2010R'] 
+	 Class credit: 1 
+	 Class about: ['COMP.1020 Computing ll, and Co-req: COMP.2010 Computing lll.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [4]
+	 Class IDs: MATH.2310 
+	 Class Name: Calculus III 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2310'] 
+	 Class credit: 4 
+	 Class about: [] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [5]
+	 Class IDs: PHYS.1410 
+	 Class Name: Physics I (SCL) 
+	 Class url: ['https://www.uml.edu/catalog/courses/PHYS/1410'] 
+	 Class credit: 3 
+	 Class about: ['Co-Req PHYS.1410L & Pre/Co-Req:MATH.1310. Anti-Req:Can only receive credit for one of the following fr-lvl phys I lec/lab courses:PHYS.1010/1010L;PHYS.1030/1030L,PHYS.1410/1410L;or PHYS.1610/1610L. Academic petition is required for anti-req exceptions.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [6]
+	 Class IDs: PHYS.1410L 
+	 Class Name: Physics I Lab (SCL) 
+	 Class url: ['https://www.uml.edu/catalog/courses/PHYS/1410L'] 
+	 Class credit: 1 
+	 Class about: ['Co-Req: PHYS 1410 Physics I.'] 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 7 
+  >>>>[+] Total Credits: 17 
+
+
+|||||||||||||||||||||||||||||||||||||||| 
+          Spring Semester 2024           
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: EECE.2020 
+	 Class Name: Circuit Theory II 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/2020'] 
+	 Class credit: 3 
+	 Class about: ['Pre-Req: C- or better in EECE 2010 Circuit Theory I, or Spring 2020 grade of "P" and Co-Req: EECE 2080 Basic EE Lab II.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: EECE.2080 
+	 Class Name: Basic Electrical Engineering Lab II 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/2080'] 
+	 Class credit: 2 
+	 Class about: ['Pre-Req: EECE 2070 Basic EE Lab I; Co-Req: EECE 2020 Circuit Theory II.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: EECE.2650 
+	 Class Name: Logic Design 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/2650'] 
+	 Class credit: 3 
+	 Class about: [] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: ['MATH.2190 ', 'MATH.3600'] 
+	 Class Name: ['Discrete Structures I ', 'Mathematic Structure for Computer Engineers'] 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2190', 'https://www.uml.edu/catalog/courses/MATH/3600'] 
+	 Class credit: 3 
+	 Class about: ['Pre-Req: MATH 2310 Calculus III.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [4]
+	 Class IDs: MATH.2340 
+	 Class Name: Differential Equations 
+	 Class url: ['https://www.uml.edu/catalog/courses/MATH/2340'] 
+	 Class credit: 3 
+	 Class about: [] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [5]
+	 Class IDs: PHYS.1440 
+	 Class Name: Physics II 
+	 Class url: ['https://www.uml.edu/catalog/courses/PHYS/1440'] 
+	 Class credit: 3 
+	 Class about: ["Pre-Req: PHYS 1410 with a 'C-' or higher, or Spring 2020 grade of `P', Pre/Co-Req: MATH 1320; & Pre/Co-Req: PHYS 1440L; Anti-Req:PHYS.1040/1040L PHYS.1440/1440L;or PHYS.1640/1640L.Please Note: Academic petition is required for anti-req exceptions."] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [6]
+	 Class IDs: PHYS.1440L 
+	 Class Name: Physics II Lab 
+	 Class url: ['https://www.uml.edu/catalog/courses/PHYS/1440L'] 
+	 Class credit: 1 
+	 Class about: ["Pre-Req: PHYS 1410L Physics I Lab with a 'C-' or higher, or Spring 2020 grade of `P¿, and  Co-Req: PHYS 1440 Physics II."] 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 7 
+  >>>>[+] Total Credits: 18 
+
+
+|||||||||||||||||||||||||||||||||||||||| 
+           Fall Semester 2024            
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: EECE.3110 
+	 Class Name: Electronics I Lab (CTPS) 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/3110'] 
+	 Class credit: 2 
+	 Class about: ['EECE.2080 Basic EE Lab II, and Co-req: EECE.3650 Electronics I.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: ['EECE.3170 ', 'COMP.2030'] 
+	 Class Name: ['Microprocessors I ', 'Assembly Language Programming'] 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/3170', 'https://www.uml.edu/catalog/courses/COMP/2030'] 
+	 Class credit: 3 
+	 Class about: ['COMP.1020 Computing ll, and Co-req: COMP.2030L Assembly Language Lab.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: EECE.3620 
+	 Class Name: Signals & Systems I 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/3620'] 
+	 Class credit: 3 
+	 Class about: ['Pre-Req: EECE 2020 Circuit Theory II and MATH 2360 Eng Differential Equations or MATH.2340 Differential Equations.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: EECE.3650 
+	 Class Name: Electronics I (QL) 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/3650'] 
+	 Class credit: 3 
+	 Class about: ['EECE 2020 Circuit Theory ll, and PHYS 1440 Physics ll, and Co-req: EECE 3110 Electronics l Lab.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [4]
+	 Class IDs: COMP.2040 
+	 Class Name: Computing IV 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP/2040'] 
+	 Class credit: 3 
+	 Class about: ['Pre-Req: COMP.2010 Computing III.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [5]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Arts and Humanities Perspective (AH)3 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: [] 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 6 
+  >>>>[+] Total Credits: 17 
+
+
+|||||||||||||||||||||||||||||||||||||||| 
+          Spring Semester 2025           
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: EECE.3120 
+	 Class Name: Electronics II Laboratory 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/3120'] 
+	 Class credit: 2 
+	 Class about: ['EECE.3110 Electronics I Lab, and Co-req: EECE.3660 Electronics II.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: ['EECE.3630 ', 'MATH.3860'] 
+	 Class Name: ['Introduction to Probability and Random Processes ', 'Probability and Statistics I'] 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/3630', 'https://www.uml.edu/catalog/courses/MATH/3860'] 
+	 Class credit: 3 
+	 Class about: ['Pre-Req: EECE.2020 Circuit Theory II.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: EECE.3640 
+	 Class Name: Engineering Mathematics 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/3640'] 
+	 Class credit: 3 
+	 Class about: ['Pre-Req: MATH 2360 Eng Differential Equations or MATH.2340 Differential Equations.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: EECE.3660 
+	 Class Name: Electronics II 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/3660'] 
+	 Class credit: 3 
+	 Class about: ['Pre-Req: C- or better in EECE 3650 Electronics I,or Spring 2020 grade of "P",  Co-Req: EECE 3120 Electronics Lab II.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [4]
+	 Class IDs: COMP.3040 
+	 Class Name: Foundations of Computer Science 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP/3040'] 
+	 Class credit: 3 
+	 Class about: ['Pre-Req: COMP 1020 Computing II, and MATH 3220 Discrete Structures II.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [5]
+	 Class IDs: COMP.3050 
+	 Class Name: Computer Architecture 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP/3050'] 
+	 Class credit: 3 
+	 Class about: ['Pre-Req: EECE 2650 Intro to Logic Design, COMP 1020 Computing II, COMP 2030 Comp Org & Assembly Lang or EECE 3170 Microprocessor Syst Des I.'] 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 6 
+  >>>>[+] Total Credits: 17 
+
+
+|||||||||||||||||||||||||||||||||||||||| 
+           Fall Semester 2025            
+|||||||||||||||||||||||||||||||||||||||| 
+index: [0]
+	 Class IDs: EECE.3600 
+	 Class Name: Engineering Electromagnetics I 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/3600'] 
+	 Class credit: 3 
+	 Class about: ['Pre-Req: EECE 2020 Circuit Theory II and PHYS 1440 Physics II.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [1]
+	 Class IDs: EECE.3991 
+	 Class Name: Capstone Proposal (IL), (WOC) 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/3991'] 
+	 Class credit: 3 
+	 Class about: [] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [2]
+	 Class IDs: COMP.3080 
+	 Class Name: Operating Systems 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP/3080'] 
+	 Class credit: 3 
+	 Class about: ['Pre-Req: COMP.3050 Computer Architecture.'] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [3]
+	 Class IDs: COMP.xxxx 
+	 Class Name: CS Project Sequence I 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP'] 
+	 Class credit: 3 
+	 Class about: [] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [4]
+	 Class IDs: PHIL.3340 
+	 Class Name: Engineering Ethics (AH), (SRE) 
+	 Class url: ['https://www.uml.edu/catalog/courses/PHIL/3340'] 
+	 Class credit: 3 
+	 Class about: [] 
+|||> 
+ \\\> 
+  |||>__ 
+index: [5]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Social Sciences Perspective (SS)3 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: [] 
+|||> 
+ \\\> 
+  |||>__ 
+  >>>>[+] Total Classes: 6 
+  >>>>[+] Total Credits: 18 
 
 
 |||||||||||||||||||||||||||||||||||||||| 
           Spring Semester 2026           
 |||||||||||||||||||||||||||||||||||||||| 
 index: [0]
-	 Class IDs: ['MATH.3', '4xxx'] 
-	 Class Name: Applied and Computational Mathematicsï¿½Elective7 
-	 Class url: ['https://www.uml.edu/catalog/courses/MATH'] 
+	 Class IDs: ['EECE.4130 ', 'EECE.4610'] 
+	 Class Name: ['Linear Feedback ', 'Electromagnetics II'] 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/4130', 'https://www.uml.edu/catalog/courses/EECE/4610'] 
 	 Class credit: 3 
-	 Class about: None 
+	 Class about: ['Pre-Req: EECE 3620 Signals & Systems I and EECE 3640 Engineering Math.', 'Pre-Req: EECE.3600 Emag Theory I.'] 
 |||> 
  \\\> 
   |||>__ 
 index: [1]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Free Elective6 
-	 Class url: [] 
+	 Class IDs: EECE.4991 
+	 Class Name: Capstone Project (AIL) 
+	 Class url: ['https://www.uml.edu/catalog/courses/EECE/4991'] 
 	 Class credit: 3 
-	 Class about: None 
+	 Class about: ['Pre-Req: EECE.3991 Capstone Proposal.'] 
 |||> 
  \\\> 
   |||>__ 
 index: [2]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Free Elective6 
-	 Class url: [] 
+	 Class IDs: COMP.3010 
+	 Class Name: Organization of Programming Languages 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP/3010'] 
 	 Class credit: 3 
-	 Class about: None 
+	 Class about: ['Pre-Req: COMP.2010 Computing III.'] 
 |||> 
  \\\> 
   |||>__ 
 index: [3]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Free Elective6 
-	 Class url: [] 
+	 Class IDs: COMP.4040 
+	 Class Name: Analysis of Algorithms 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP/4040'] 
 	 Class credit: 3 
-	 Class about: None 
+	 Class about: ['Pre-Reqs: COMP 1020 Computing II, MATH 3220 Discrete Structures ll and MATH 3860 Probability  & Statistics I.'] 
 |||> 
  \\\> 
   |||>__ 
 index: [4]
-	 Class IDs: xxxx.xxxx 
-	 Class Name: Free Elective6 
-	 Class url: [] 
+	 Class IDs: COMP.xxxx 
+	 Class Name: CS Project Sequence II 
+	 Class url: ['https://www.uml.edu/catalog/courses/COMP'] 
 	 Class credit: 3 
-	 Class about: None 
+	 Class about: [] 
 |||> 
  \\\> 
   |||>__ 
-  >>>>[+] Total Classes: 5 
-  >>>>[+] Total Credits: 15 
-
-
-
+index: [5]
+	 Class IDs: xxxx.xxxx 
+	 Class Name: Social Sciences Perspective (SS)3 
+	 Class url: [] 
+	 Class credit: 3 
+	 Class about: [] 
+|||> 
  \\\> 
   |||>__ 
-index: [1]
-	 Class IDs: MATH.
+  >>>>[+] Total Classes: 6 
+  >>>>[+] Total Credits: 18 
+
+

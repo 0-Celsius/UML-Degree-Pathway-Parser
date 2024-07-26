@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-
+import time 
 ALL_MAJOR_URL = r'https://www.uml.edu/catalog/undergraduate/majors.aspx'
 
 class Undergrad_Major:
@@ -232,17 +232,19 @@ def choose_pathway_option(choosen_major_option_url):
     print('\n\n')
     #print(major_with_options_list)
     return major_with_options_list
+ 
         
 def choose_major_prompt(list_of_options):
     max_len = len(list_of_options)
     print('choose an major you want: ')
     user_choice_n = int(input(f'enter a number(0 -> {max_len-1}): '))
-    print(f'{type(user_choice_n)} :: {user_choice_n}')
+    #print(f'{type(user_choice_n)} :: {user_choice_n}')
     while not ( user_choice_n  in range(max_len)):
         user_choice_n = int(input(f'enter a number(0 -> {max_len-1}): '))    
-        print(f'{type(user_choice_n)} :: {user_choice_n}')
+        #print(f'{type(user_choice_n)} :: {user_choice_n}')
         
     return list_of_options[user_choice_n]
+      
         
 def search_url(major = None, url = None):
     '''
@@ -370,10 +372,38 @@ def search_url(major = None, url = None):
         current_course_list = []
     
      
-    print('done running search!')
+    
     return pathway
 
     
+def check_for_pre_req(pathway):
+    print('adding pre-reqs...  (this takes a while sorry :[ )')
+    req_texts = ['co-req', 'pre-req', 'anti req']
+    for semester in pathway:
+        for course in semester.course_list:
+            pre_req = []
+            try:
+                for url in course.url:
+                    #print(f"[{c_idx}]", end = '')
+                    response = requests.get(url)   
+                    soup = BeautifulSoup(response.content, 'html.parser')
+                    p_elements = soup.find_all('p')
+                    
+                    for p in p_elements:
+                        if any(term in p.text.lower() for term in req_texts):
+                            #print(f" {course.name}: {course.url}\tpre: {p.text}\n", end='')
+                            pre_req.append(p.text) 
+
+                    #print()    
+                        
+            except Exception as e:
+                print(f"error: {e}")
+                exit
+            course.about = pre_req
+       
+        #print("\n\n")
+    print('done adding pre-reqs!')
+      
        
 def print_pathway(pathway, base_year = 2022):
     for idx_year, semester  in enumerate(pathway, start= 1):
@@ -407,9 +437,11 @@ def print_pathway(pathway, base_year = 2022):
         print("\n\n")
         
         
-def generate_pathway_text_file(pathway, base_year = 2022, filename = 'pathway.txt'):
-    
-    generated_file_location = os.path.join(os.getcwd(), filename) 
+def generate_pathway_text_file(pathway, base_year = 2022, filename = 'pathway.txt', folderpath = ''):
+    if folderpath: 
+        generated_file_location = os.path.join(folderpath, filename)
+    else:
+        generated_file_location = os.path.join(os.getcwd(), filename)
     
     with open(generated_file_location, 'w') as w_file:
         for idx_year, semester  in enumerate(pathway, start= 1):
@@ -442,22 +474,26 @@ def generate_pathway_text_file(pathway, base_year = 2022, filename = 'pathway.tx
             w_file.write(f"  >>>>[+] Total Credits: {total_val} \n")
             
             w_file.write("\n\n")
-            
-        
-            
 
+
+    
 if __name__ == '__main__':
     
+    #start_time = time.time()
     #Tag: Options
-    program = True
+    program = False
     return_txt_file = True
     
+    
+    
+    # searching for url
+    print('UML Degree Parser\n')
     if program:
         major_list = find_all_majors()
         choosen_major_about_url = user_terminal_interface(major_list)
         
-        print("look up major's pathway?")
-        continue_prompt()
+        #print("look up major's pathway?")
+        #continue_prompt()
         
         major_about_url = choosen_major_about_url.url
         
@@ -467,29 +503,25 @@ if __name__ == '__main__':
         choosen_major_option_url_list = choose_pathway_option(major_options_url)
         
         choosen_major_option_url = choose_major_prompt(choosen_major_option_url_list)    
-
-        pathway_requirements = search_url(url= choosen_major_option_url)
-        
-        if return_txt_file:
-            generate_pathway_text_file(pathway_requirements)
-            pass
-        
-        
+        search_start_time = time.time()
+        pathway_requirements = search_url(url= choosen_major_option_url)    
+        total_search_time = time.time() - search_start_time
+    
     else:
         # just a quick path to look up a url/ my debugger
         pathway_url = ''
         
-        #Double_EE_CS_URL = r"https://www.uml.edu/catalog/undergraduate/engineering/departments/electrical-computer-engineering/degree-pathways/dp-ece-eecs-2023.aspx"
-        #user_pathway_url = Double_EE_CS_URL
-         
-        user_pathway_url = input("Please enter a pathway url from uml: ")
+        Double_EE_CS_URL = r"https://www.uml.edu/catalog/undergraduate/engineering/departments/electrical-computer-engineering/degree-pathways/dp-ece-eecs-2023.aspx"
+        user_pathway_url = Double_EE_CS_URL
+        #user_pathway_url = input("Please enter a pathway url from uml: ")
+        
         pathway_url = user_pathway_url
         
         
-        
+        print("searching for url...")
+        search_start_time = time.time()
         pathway_requirements = search_url(url = pathway_url)
-        if return_txt_file:
-            generate_pathway_text_file(pathway_requirements)
+        total_search_time = time.time() - search_start_time
         
         '''
         A diagram of pathway:
@@ -517,5 +549,20 @@ if __name__ == '__main__':
                         - about                     [str]
                     - ... 
         '''
-        print_pathway(pathway_requirements)
- 
+    
+    print('done looking up your major!')
+    print(f'total time taken to generate your pathway: {total_search_time:.5}s\n\n')
+    
+    pre_req_timer = time.time()
+    check_for_pre_req(pathway_requirements)
+    total_pre_req_timer = time.time() - pre_req_timer
+    print(f'total time taken to find pre reqs: {total_pre_req_timer:.5}s\n\n')
+    
+    #print_pathway(pathway_requirements)
+    if return_txt_file:
+        generate_pathway_text_file(pathway_requirements)
+        print("generating text file!")
+    
+    #total_time = time.time() - start_time
+    #print(f'total time taken to run: {total_time:.5}s')
+    

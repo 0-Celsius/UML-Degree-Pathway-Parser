@@ -1,1 +1,1 @@
-co_index += 1
+check_for_pre_req
