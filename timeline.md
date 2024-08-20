@@ -1,6 +1,11 @@
 # timeline.md 
 my personal file to remember what i need to fix and add etc, feel free to look through my thoughts
 
+# 08/19/2024 
+## main 
+    - added in a obsidian formatted file, allows for me to grab the data.
+    
+
 # 07/25/2024
 ## main 
     - started making a pre req checker
